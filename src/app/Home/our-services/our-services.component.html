@@ -1,0 +1,89 @@
+
+<div class="container">
+<h1 style="font-weight: bold; text-align: center; margin: 50px 0 20px 0;">Our Services</h1>
+<div class="first-sec1">
+<div class="row">
+<div class="col-md-8">
+<div class="view overlay">
+        <img src="{{service[0]?.s_image}}" class="img-fluid " alt="smaple image">
+        <div class="mask flex-center color">
+            <p class="white-text"> 
+                
+                {{service[0] ?.s_content}}
+            
+             
+            <a routerLinkActive='active' routerLink='/crm'>View More</a>
+                    
+            </p>
+            
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="view overlay">
+            <img src="{{service[1] ?.s_image}}" class="img-fluid " alt="smaple image">
+            <div class="mask flex-center color2">
+                <p class="white-text"> {{service[1] ?.s_content}} 
+                    <a routerLinkActive='active' routerLink='/product' >View More</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="cl"></div>
+
+<div class="second-sec">
+    <div class="row">
+        <div class="col-md-4">
+                <div class="view overlay">
+                        <img src="{{service[2] ?.s_image}}" class="img-fluid " alt="smaple image">
+                        <div class="mask flex-center rgba-blue-light">
+                            <p class="white-text"> {{service[2] ?.s_content}} 
+                                <a routerLinkActive='active' routerLink='/Mobile'>View More</a></p>
+                        </div>
+                    </div>
+
+        </div>
+        <div class="col-md-8">
+                <div class="view overlay">
+                        <img src="{{service[3] ?.s_image}}" class="img-fluid " alt="smaple image">
+                        <div class="mask flex-center rgba-red-strong">
+                            <p class="white-text"> {{service[3] ?.s_content}} 
+                            <a RouterLinkActive='active' routerLink='/commerce'>View More</a> </p>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="cl"></div>
+
+<div class="second-sec">
+    <div class="row">
+        <div class="col-md-8">
+                <div class="view overlay">
+                        <img src="{{service[4] ?.s_image}}" class="img-fluid " alt="smaple image">
+                        <div class="mask flex-center rgba-blue-light">
+                            <p class="white-text"> {{service[4] ?.s_content}} 
+                                <a rouetrLinkActive='active' routerLink='/delivery'>View More</a> </p>
+                        </div>
+                    </div>
+
+        </div>
+        <div class="col-md-4">
+                <div class="view overlay">
+                        <img src="{{service[5] ?.s_image}}" class="img-fluid " alt="smaple image">
+                        <div class="mask flex-center rgba-red-strong">
+                            <p class="white-text"> {{service[5] ?.s_content}} 
+                                <a routerLinkActive='active' routerLink='/digital'>View More</a> </p>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    
+</div>
+</div>

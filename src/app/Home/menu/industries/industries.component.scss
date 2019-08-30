@@ -1,0 +1,31 @@
+.slider{
+
+    background-image: url('/assets/industries-bg.jpg');
+    height: 500px;
+    padding-top: 50px;
+}
+.slider-text{ text-align: center; color: white; margin-top: 100px;}
+.slider-text h1{font-weight: bold; font-size: 60px;}
+.slider-text h6{ font-size: 22px; font-weight: bold;}
+.cl{ clear: both;}
+.Industries-sec{ background-image: url('/assets/indus-texture-background.jpg');
+    background-attachment: fixed;
+    min-height: 470px;
+    background-size: 100%;
+}
+.text-images {
+    background: #fff;
+    width: 75%;
+    float: none;
+    position: relative;
+    top: -63px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding: 12px 15px;
+    box-shadow: 0px 3px 11px 1px #ddd;
+    min-height: 116px;
+    font-weight: bold;
+}
+.text-images h4{margin-top:38px; font-weight: bold; }

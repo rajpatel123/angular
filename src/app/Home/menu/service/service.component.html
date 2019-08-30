@@ -1,0 +1,66 @@
+<div class="row">
+        <div class="col-md-12">
+            <div class="ind-header-img">
+        <img style="width: 1345px;" src={{service.text_image}}>
+        <div class="tex-header-img">
+        <p> {{service.text_1}} </p>
+        <p> {{service.text_2}} </p>
+        </div>
+        </div>
+        </div>
+        </div>
+    
+        <h1 style="font-weight: bold; text-align: center; margin: 150px 0 20px 0;">Our Services</h1>
+        <div class="first-sec1">
+        <div class="row">
+        <div class="col-md-8">
+        <div class="view overlay">
+                <img [src]="blog[0].b_image" class="img-fluid " alt="smaple image">
+                <div class="mask flex-center rgba-blue-light">
+                    <p class="white-text"> {{blog[0].b_content}}
+                            <button type="button" class="btn btn-success">Success</button>    
+                    </p> 
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="col-md-4">
+            <div class="view overlay">
+                    <img [src]="blog[1].b_image" class="img-fluid " alt="smaple image">
+                    <div class="mask flex-center rgba-red-strong">
+                        <p class="white-text"> {{blog[1].b_content}} </p>
+                        <button type="button" class="btn btn-success">Success</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="cl"></div>
+        
+        <div class="second-sec">
+            <div class="row">
+                <div class="col-md-4">
+                        <div class="view overlay">
+                                <img [src]="blog[2].b_image" class="img-fluid " alt="smaple image">
+                                <div class="mask flex-center rgba-blue-light">
+                                    <p class="white-text"> {{blog[2].b_content}} 
+                                            <button type="button" class="btn btn-success">Success</button>
+                                    </p>
+                                </div>
+                            </div>
+        
+                </div>
+                <div class="col-md-8">
+                        <div class="view overlay">
+                                <img [src]="blog[3].b_image" class="img-fluid " alt="smaple image">
+                                <div class="mask flex-center rgba-red-strong">
+                                    <p class="white-text"> {{blog[3].b_content}}
+                                            <button type="button" class="btn btn-success">Success</button> </p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer>

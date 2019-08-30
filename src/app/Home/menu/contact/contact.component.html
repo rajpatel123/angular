@@ -1,0 +1,110 @@
+
+<div class="banner">
+        <img width="1345px" src={{slid.text_image}} >
+    </div>
+    <div class="container">
+       <div class="card">
+    
+            
+            <!--Card content-->
+            <div class="card-body px-lg-5 pt-0">
+             
+               <div class="top-btn">
+          <div class="row">
+              <div class="col-md-4">
+                    <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit"  (click)="Service()"  >Service Enquiry</button>
+              </div>
+              <div class="col-md-4">
+                    <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" (click) ="Enquery()">Career Enquiry</button>
+              </div>
+              <div class="col-md-4">
+                    <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit"  (click)="product()" >Product Enquiry</button>
+              </div>
+          </div>
+        </div>
+            
+    <form class="text-center" style="color: #757575;"  (ngSubmit)="onSubmit()">
+          
+        
+    <div class="row">           
+         <div class="col-md-6">
+                <div class="md-form">
+                  <input type="text" id="materialLoginFormText" class="form-control">
+                  <label for="materialLoginFormEmail">Name</label>
+                </div>
+          
+                <!-- Password -->
+                <div class="md-form">
+                  <input type="number" id="materialLoginFormNumber" class="form-control">
+                  <label for="materialLoginFormPassword">Contact Number</label>
+                </div>
+    
+                <div class="md-form">
+                        <input type="email" id="materialLoginFormEmail" class="form-control">
+                        <label for="materialLoginFormPassword">Email</label>
+                      </div>
+            </div>
+                
+    
+            <div class="col-md-6">
+    
+                    <div class="md-form">
+                            <input type="email" id="materialLoginFormEmail" class="form-control">
+                            <label for="materialLoginFormEmail">Company Name</label>
+                          </div>
+    
+                          <div class="md-form">
+                                <input type="email" id="materialLoginFormEmail" class="form-control">
+                                <label for="materialLoginFormEmail">Website Name</label>
+                                <span *ngIf="career">
+                                  <input type="file" name="myFile">
+                                </span> 
+                                <span *ngIf="productEnquery">
+                                  <select>
+                                    <option value="tekHRM">TekHRM</option>
+                                    <option value="Buy-your-kart">Buy your kart</option>
+                                    <option value="Automating Retail">Automating-retail</option>
+                                    <option value="SalesCRM">SalesCRM</option>
+                                  </select>
+                                </span>
+                                
+                              </div>
+            </div></div>
+          
+                <!-- Sign in button -->
+               <div class="container">
+                   
+                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Submit</button>
+            </div>
+                <!-- Register -->
+                
+          
+                <!-- Social login -->
+              
+                <a type="button" class="btn-floating btn-fb btn-sm">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a type="button" class="btn-floating btn-tw btn-sm">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a type="button" class="btn-floating btn-li btn-sm">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a type="button" class="btn-floating btn-git btn-sm">
+                  <i class="fab fa-github"></i>
+                </a>
+          
+              </form>
+              <!-- Form -->
+          
+            </div>
+          
+          </div>
+        </div>
+    
+    
+    
+    
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5992159447746!2d77.3870031144067!3d28.611797891771385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef58ad0b735b%3A0x3963ed5d637fde0b!2sJPR+Technosoft+LLP!5e0!3m2!1sen!2sin!4v1562241856811!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+         
+    <app-footer></app-footer>

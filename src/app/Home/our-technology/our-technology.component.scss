@@ -1,0 +1,48 @@
+.tech{ padding-top: 50px; height: 652px; background-image: url('/assets/our-technology-bg.png')}
+.wrap-custom {
+    width: 96%;
+    margin: 0 auto;
+}
+.fadeInDown.go {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.our-technoloy-section-pro ul {
+    list-style: none;
+    padding-left: 0px;
+    float: left;
+    width: 100%;
+}
+
+.owl-carousel .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.line1 {
+    float: left;
+    width: 24%;
+    text-align: center;
+    min-height: 250px;
+    border-right: 1px solid #a1a5a6;
+    vertical-align: top;
+    
+    padding-top: 60px;
+    position: relative;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all ease 1s;
+    padding-bottom: 70px;
+}
+.line2{border-bottom: 1px solid #a1a5a6;}
+
+.our-technoloy-section-pro ul li .collect-all {
+    transition: all ease 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+}

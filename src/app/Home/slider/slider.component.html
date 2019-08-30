@@ -1,0 +1,17 @@
+
+<div class="slider">
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item *ngFor="let img of slider"> 
+      <div class="view w-100">
+        <img class="d-block w-100" [src] = "img.text_image " alt="First slide">
+        <div class="mask rgba-black-light waves-light"></div>
+      </div>
+      <div class="carousel-caption">
+         <p class=" animated fadeInLeft go" style="margin-top: -290px; float: left; font-size: 25px; ">{{ img.text_1 }}</p> 
+        <h1 class=" animated fadeInUp go" style="margin-top: -250px; float: left; font-size: 36;  font-weight: bold; text-transform: uppercase;"> {{img.text_2}}</h1>
+        <p class=" animated fadeInLeft go" style="margin-top: -170px; float: left; font-size: 14px; "> {{img.text_3}} </p>
+      </div>
+    </mdb-carousel-item>
+    
+    </mdb-carousel>  
+  </div>
