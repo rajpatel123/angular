@@ -1,4 +1,4 @@
-.footer{ background-color:#26536a; padding-bottom: 20px; padding-top: 20px; color: white; margin-top: 30px;}
+.footer{  background-image: url('/assets/footer-bg.jpg'); padding-bottom: 20px; padding-top: 50px; color: white; margin-top: 30px;}
 h6{ font-weight: bold; }
 .subs {
     margin-top: 25px;
@@ -33,10 +33,22 @@ h6{ font-weight: bold; }
     color: #fff;
     text-transform: uppercase;
     border: 1px solid #0a86cd;
-    
+    transition: all ease 0.5;
 }
 #sumit_new, #contact_us {
     cursor: pointer;
 }
+.line{ margin-top: 30px; margin-bottom: 20px; border-bottom: 1px solid #a1a5a6; }
 .col-md-6 ul li{ display: block;}
-.col-md-6 ul li a{ text-decoration: none; color: white; }
+.col-md-6 ul li a{ color: white; text-decoration: none;}
+
+span{
+    content: "\f054";
+    width: 15px;
+    height: 15px;
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+}
