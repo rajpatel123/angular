@@ -9,15 +9,16 @@ import { Services } from 'src/app/service/services.service';
 export class ServiceComponent implements OnInit {
 
   service=[];
-  blog = [];
+  
 
 
   constructor(private http:Services) { }
 
   ngOnInit() {
-    this.http.getdata4().subscribe(data=>{
-      this.service=data['Slider Data'];
-      this.blog=data['Blogs'];
+    this.http.getdata2().subscribe(data=>{
+      console.log('data==>',data);
+      this.service=data['Services'];
+      
     })
 
 
