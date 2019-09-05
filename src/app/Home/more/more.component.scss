@@ -4,3 +4,52 @@
 .zoom img, .zoom video {
     transition: all 0.8s linear;
 }
+.overlay .mask {
+    opacity: 8;
+    transition: all 0.4s ease-in-out;}
+
+.know-right-content{
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(17, 71, 175, 0.43);
+    color: #fff;
+    padding: 20px 14px; 
+}
+
+.single-way-blog-content p a, .know-right-content p a {
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.know-right-content ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #7c8b94;
+}
+
+.double-left-content, .double-left-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(17, 71, 175, 0.43);
+    color: #fff;
+    padding: 20px 14px;
+}
+
+.double-left-content ul li, .double-left-content ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #7c8b94;
+    color: white;
+}
+a{ color: white;}a:hover{ color: white;}
